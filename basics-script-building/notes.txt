@@ -1,0 +1,19 @@
+Scripting
+- Is a string of commands put together that your computer
+  interprets
+- collection of commands
+- automate collection of commands
+
+NB
+* means commands executed in terminal
+
+* vim test1.sh [ Opens file in terminal ]
+* ./test1.sh [outputs permission denied , wy?] [It is not an executable file]
+* ls -l test1.sh [checks permissions of the file]
+* chmod u+x test.sh [makes file executable]
+* #! shebang [let shell know I am calling shell script] [the rest tells what to interpret it as ex. bash,dash]
+* #!/bin/bash [interpret shell script] [lets the command line know that it is executed by whatever shell you have given it]
+* echo [print to terminal]
+* :wq - save and exit
+* negative/escape quotes
+ example - echo "I'm\"Ron\" Burgandy?" [backslashes negates/escapes quotes]
